@@ -1,37 +1,33 @@
 /* To access +, -, *, /, and = as simple calculations through a generic calculator there should be functions that call from math
- and prepare for the next round of input. */
+and prepare for the next round of input. */
  
- function add(valueIn, answer){
- answer = valueIn + answer;
+function add(valueIn, answer){
+	answer = valueIn + answer;
  
- return answer;
+	return answer;
  }
  
- function subt(valueIn, answer){
- answer = answer - valueIn;
+function subt(valueIn, answer){
+	answer = answer - valueIn;
  
- return answer;
+	return answer;
  }
  
  function mult(valueIn, answer){
- answer = valueIn * answer;
+	answer = valueIn * answer;
  
- return answer;
+	return answer;
  }
  
  function divi(valueIn, answer){
- answer = answer / valueIn;
+	answer = answer / valueIn;
  
- return answer;
+	return answer;
  }
- 
- function ask(){
-  Do{
   
-  
-  }while(opIn === '=');
-  
-  alert(answer);
+ function equal(valueIn, answer){
+ 	alert(answer); // display answer. Only need to display because each operator already handles the arithmetic.
+	answer = 0; // attempt to clear answer for new input.
  }
  
  
