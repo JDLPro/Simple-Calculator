@@ -1,0 +1,18 @@
+<!DOCTYPE html> // taken from Eduardo
+<html>
+<head>
+  <title>Calculator</title>
+</head>
+<body>
+  <h1>Simple Calculator</h1>
+  <form id="calc">
+    <input type="text" value=""></input>
+    <input type="button" value="+" onclick="add(valueIn, answer)"></input>
+    <input type="button" value="-" onclick="subt(valueIn, answer)"></input>
+    <input type="button" value="*" onclick="mult(valueIn, answer)"></input>
+    <input type="button" value="/" onclick="divi(valueIn, answer)"></input>
+    <h2>Total:<span id="answer"></span> </h2>
+  </form>
+  <script src="calc.js"></script>
+</body>
+</html>
