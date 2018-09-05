@@ -8,35 +8,40 @@
   <form id="calcuface">
 <!--    <input id="valueIn" type="text" value=""></input> // old inputs through text -->
    
-    <h2>Total<br><input readonly="true" id="answer" value=""></input></h2>
+    <h2>Total<br><input readonly="true" id="answer" value=""></input></h2> <!-- Display of answer and input -->
     <!-- 1-3 -->
-    <br>
     <input type="button" value="1" onclick="one()"></input>
     <input type="button" value="2" onclick="two()"></input>
     <input type="button" value="3" onclick="three()"></input>   
     <!-- 4-6 -->
-    <br>
+  <br>
     <input type="button" value="4" onclick="four()"></input>
     <input type="button" value="5" onclick="five()"></input>
     <input type="button" value="6" onclick="six()"></input>
+  <br>
     <!-- 7-9 -->
-    <br>
     <input type="button" value="7" onclick="seven()"></input>
     <input type="button" value="8" onclick="eight()"></input>
     <input type="button" value="9" onclick="nine()"></input>
-    <br>
-    <input type="button" value="+" onclick="add()"></input>
 
+
+  <br>
+    <input type="button" value="0" onclick="zero()"></input>
+    <input type="button" value="=" onclick="equa()"></input>
+  <br>
+    <!-- operators -->
+    <input type="button" value="+" onclick="addi()"></input>
     <input type="button" value="-" onclick="subt()"></input>
-
     <input type="button" value="*" onclick="mult()"></input>
-<br>
     <input type="button" value="/" onclick="divi()"></input>
-
-    <input type="button" value="clear" onclick="clear()"></input>
+  <br>
+    <input type="button" value="clear" onclick="dele()"></input>
+ 
   </form>
-  <script src="functions.js"></script> <!-- This is the javascript -->
+
+  <script src="functions.js">
+  </script> <!-- This is the javascript -->
+
 </body>
 
 </html>
-
